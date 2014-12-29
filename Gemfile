@@ -3,15 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
-# Use postgresql as the database for Active Record
+# Use sqlite3 as the database for Active Record
+#gem 'sqlite3'
 gem 'pg', '0.18.0.pre20141117110243'
-
-group :development, :test do
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'guard-rspec'	
-end
-
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
